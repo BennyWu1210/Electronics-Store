@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa13a6d2-55a0-4133-8d79-22e074406f4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="aa13a6d2-55a0-4133-8d79-22e074406f4a" name="Default Changelist" comment="updated files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1vEZrYTkqtl8nLspJ5RUi82QSZX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,7 +50,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -115,6 +122,28 @@
       <option name="presentableId" value="Default" />
       <updated>1626129407191</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated files">
+      <created>1627338191284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627338191284</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated files">
+      <created>1627338305864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627338305864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated files">
+      <created>1627338877135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627338877135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +158,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated files" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="262" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627338026386">
       <screen x="0" y="23" width="1440" height="833" />
@@ -138,30 +171,38 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="742" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.833@0.23.1440.833" timestamp="1626734420327" />
-    <state width="1419" height="215" key="GridCell.Tab.0.bottom" timestamp="1627337625616">
+    <state width="1419" height="179" key="GridCell.Tab.0.bottom" timestamp="1627340058062">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1627337625616" />
+    <state width="1419" height="179" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1627340058062" />
     <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1626131245370" />
-    <state width="1419" height="215" key="GridCell.Tab.0.center" timestamp="1627337625616">
+    <state width="1419" height="179" key="GridCell.Tab.0.center" timestamp="1627340058061">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1627337625616" />
+    <state width="1419" height="179" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1627340058061" />
     <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1626131245370" />
-    <state width="1419" height="215" key="GridCell.Tab.0.left" timestamp="1627337625615">
+    <state width="1419" height="179" key="GridCell.Tab.0.left" timestamp="1627340058061">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1627337625615" />
+    <state width="1419" height="179" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1627340058061" />
     <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1626131245369" />
-    <state width="1419" height="215" key="GridCell.Tab.0.right" timestamp="1627337625616">
+    <state width="1419" height="179" key="GridCell.Tab.0.right" timestamp="1627340058062">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1627337625616" />
+    <state width="1419" height="179" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1627340058062" />
     <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1626131245370" />
-    <state x="141" y="94" key="SettingsEditor" timestamp="1627337576828">
+    <state x="207" y="23" key="SettingsEditor" timestamp="1627339118524">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="141" y="94" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1627337576828" />
+    <state x="207" y="23" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1627339118524" />
+    <state x="326" y="178" key="Vcs.Push.Dialog.v2" timestamp="1627339124871">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="326" y="178" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1627339124871" />
+    <state x="493" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627338890562">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="493" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.833@0.23.1440.833" timestamp="1627338890562" />
     <state x="349" y="180" key="search.everywhere.popup" timestamp="1626732897962">
       <screen x="0" y="23" width="1440" height="833" />
     </state>

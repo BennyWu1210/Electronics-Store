@@ -15,8 +15,20 @@ class Database:
         print("closed connection")
 
     def query(self, command):
-        self.cursor.execute(command)
-        return self.cursor.fetchall()
+        try:
+            self.cursor.execute(command)
+            return self.cursor.fetchall()
+        except Exception as e:
+            print(e)
+            return []
+
+    def update(self, command):
+        try:
+            self.cursor.execute(command)
+        except Exception as e:
+            print(e)
+
+
 
 
 

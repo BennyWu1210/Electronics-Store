@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa13a6d2-55a0-4133-8d79-22e074406f4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/credential.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -80,9 +79,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -94,6 +93,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.database" />
+      <item itemvalue="Python.main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
@@ -127,30 +130,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="262" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627338026386">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="262" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1627338026386" />
     <state x="742" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626734420327">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="742" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.833@0.23.1440.833" timestamp="1626734420327" />
-    <state width="1419" height="215" key="GridCell.Tab.0.bottom" timestamp="1626735959170">
+    <state width="1419" height="215" key="GridCell.Tab.0.bottom" timestamp="1627337625616">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1626735959170" />
+    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1627337625616" />
     <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1626131245370" />
-    <state width="1419" height="215" key="GridCell.Tab.0.center" timestamp="1626735959169">
+    <state width="1419" height="215" key="GridCell.Tab.0.center" timestamp="1627337625616">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1626735959169" />
+    <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1627337625616" />
     <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1626131245370" />
-    <state width="1419" height="215" key="GridCell.Tab.0.left" timestamp="1626735959169">
+    <state width="1419" height="215" key="GridCell.Tab.0.left" timestamp="1627337625615">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1626735959169" />
+    <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1627337625615" />
     <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1626131245369" />
-    <state width="1419" height="215" key="GridCell.Tab.0.right" timestamp="1626735959170">
+    <state width="1419" height="215" key="GridCell.Tab.0.right" timestamp="1627337625616">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1626735959170" />
+    <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1627337625616" />
     <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1626131245370" />
+    <state x="141" y="94" key="SettingsEditor" timestamp="1627337576828">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="141" y="94" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1627337576828" />
     <state x="349" y="180" key="search.everywhere.popup" timestamp="1626732897962">
       <screen x="0" y="23" width="1440" height="833" />
     </state>

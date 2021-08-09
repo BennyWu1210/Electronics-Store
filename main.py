@@ -17,7 +17,7 @@ from database import *
 #  Make the files for the classes first
 
 
-# Open connection yayyyyy test test
+# Open connection
 
 db = Database(crt.host, crt.db_name, crt.user, crt.password)
 result = db.query(""" SELECT * FROM "User" """)

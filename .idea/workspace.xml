@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa13a6d2-55a0-4133-8d79-22e074406f4a" name="Default Changelist" comment="updated files">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,10 +302,11 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="326" y="178" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1627339124871" />
-    <state x="493" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627338890562">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state x="767" y="503" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629756729843">
+      <screen x="0" y="25" width="2240" height="1184" />
     </state>
     <state x="493" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.833@0.23.1440.833" timestamp="1627338890562" />
+    <state x="767" y="503" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.2240.1184@0.25.2240.1184" timestamp="1629756729843" />
     <state x="349" y="180" key="search.everywhere.popup" timestamp="1626732897962">
       <screen x="0" y="23" width="1440" height="833" />
     </state>

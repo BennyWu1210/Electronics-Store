@@ -25,8 +25,9 @@ class Database:
     def update(self, command):
         try:
             self.cursor.execute(command)
+            self.link.commit()
         except Exception as e:
-            print(e)
+            print("ERROR: " + e)
 
 
 

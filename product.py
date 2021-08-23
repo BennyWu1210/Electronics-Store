@@ -1,3 +1,4 @@
+import database
 
 
 class Product:
@@ -10,15 +11,14 @@ class Product:
         self.year = year
         self.productType = p_type
 
-    def update(self, name=None, price=None, stock=None, p_type=None, year=None, brand=None):
+    def update(self, db, name=None, price=None, stock=None, p_type=None, year=None, brand=None):
         query = """ 
-        UPDATE TABLE "Products" 
+        UPDATE "Product" 
         SET
         """
 
-
         if name is not None:
-            query += "name = " + name + ", "
+            query += "product_name = \'" + name + "\', "
 
         if price is not None:
             query += "price = " + str(price) + ", "
@@ -27,7 +27,7 @@ class Product:
             query += "stock = " + str(stock) + ", "
 
         if p_type is not None:
-            query += "p_type = " + p_type + ", "
+            query += "product_type = \'" + p_type + "\', "
 
         if year is not None:
             query += "year = " + str(year) + ", "
@@ -38,14 +38,55 @@ class Product:
         if query[-2] == ",":
             query = query[0: -2] + ""
             query += """ WHERE product_id = """ + str(self.productID) + ";"
+            db.update(query)
+
         else:
             print("INVALID QUERY: Please pass in at least one argument")
 
-        print(query)
+
+def select_product(db, product_id=None, name=None, price=None, stock=None, p_type=None, year=None, brand=None):
+    query = """ SELECT * FROM "Product" WHERE """
+    if product_id is not None:
+        query += "product_id = " + str(product_id) + ";"
+    else:
+        if name is not None:
+            query += "product_name = \'" + name + "\' AND "
+
+        if price is not None:
+            query += "price = " + str(price) + " AND "
+
+        if stock is not None:
+            query += "stock = " + str(stock) + " AND "
+
+        if p_type is not None:
+            query += "product_type = \'" + p_type + "\' AND "
+
+        if year is not None:
+            query += "year = " + str(year) + " AND "
+
+        if brand is not None:
+            query += "brand = \'" + brand + "\' AND "
+
+        if query[-4: -1] == "AND":
+            query = query[0: -5] + ";"
+        else:
+            print("INVALID QUERY: Please pass in at least one argument")
+
+    print("query: " + str(query))
+    info = db.query(query)
+    return info
 
 
-apple = Product(1, 2, 3, 4, 5, 6, 7)
-apple.update("1", 2, 3, "4", 5, "6")
+
+
+
+
+
+
+
+
+
+
 
 
 

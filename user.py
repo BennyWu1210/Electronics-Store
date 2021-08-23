@@ -29,6 +29,11 @@ class User:
     def username(self, new_username):
         self._username = new_username
 
+    @property
+    def email(self):
+        return self._email
+
+
 
 user = User(1, "guy", "dude", "guy", "dude@guy.com")
 user.user_id = 5

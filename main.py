@@ -2,6 +2,8 @@ import sys
 import datetime
 import math
 import login
+from product import Product
+from product import select_product
 from user import User
 
 import credential as crt
@@ -9,11 +11,9 @@ from database import *
 
 # TODO
 #  1. Change column's character limit
-#  2. Login to database (login.py)
-#  3. Product class (product.py) --> update product, select product...
-#  4. User (user.py) --> let admin view information
-#  5. Transaction history (transaction.py, or something like that)
-#  6. Store (store.py) --> add user, keep track of everything
+#  2. User (user.py) --> let admin view information
+#  3. Transaction history (transaction.py, or something like that)
+#  4. Store (store.py) --> add user, keep track of everything
 #  Make the files for the classes first
 
 
@@ -38,6 +38,17 @@ def create_user(user_info, username):
     return user
 
 
-print(create_user(new_user, username))
+def create_product():
+    pass
 
 
+# Create user testing
+# print(create_user(new_user, username))
+
+# Product update testing
+apple = Product(1, 2, 3, 4, 5, 6, 7)
+# apple.update(db, "1", 2, 3, "4", 5, "6")
+
+print(select_product(db, 1, "ben", 32.1, 10, "phone", 2022, "apple")[0])
+
+# hihihihi testing
